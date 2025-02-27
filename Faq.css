@@ -1,0 +1,41 @@
+.faq {
+    text-align: center;
+    padding: 50px;
+    background: #f9f9f9;
+  }
+  
+  .faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .faq-list {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px; 
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-question {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  

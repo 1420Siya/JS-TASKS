@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url("https://source.unsplash.com/1600x900/?nature") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .hero-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #ff5733;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
